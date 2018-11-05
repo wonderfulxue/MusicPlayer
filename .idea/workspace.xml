@@ -1,0 +1,915 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="7b81a807-21ad-48ac-8dcf-9ec8061c92b9" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/lib/ConfigParser.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/chardet/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/chardet/big5freq.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/chardet/big5prober.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/chardet/chardetect.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/chardet/chardistribution.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/chardet/charsetgroupprober.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/chardet/charsetprober.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/chardet/codingstatemachine.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/chardet/compat.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/chardet/constants.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/chardet/cp949prober.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/chardet/escprober.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/chardet/escsm.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/chardet/eucjpprober.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/chardet/euckrfreq.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/chardet/euckrprober.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/chardet/euctwfreq.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/chardet/euctwprober.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/chardet/gb2312freq.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/chardet/gb2312prober.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/chardet/hebrewprober.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/chardet/jisfreq.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/chardet/jpcntx.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/chardet/langbulgarianmodel.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/chardet/langcyrillicmodel.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/chardet/langgreekmodel.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/chardet/langhebrewmodel.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/chardet/langhungarianmodel.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/chardet/langthaimodel.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/chardet/latin1prober.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/chardet/mbcharsetprober.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/chardet/mbcsgroupprober.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/chardet/mbcssm.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/chardet/sbcharsetprober.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/chardet/sbcsgroupprober.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/chardet/sjisprober.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/chardet/universaldetector.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/chardet/utf8prober.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/enum.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/json/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/json/decoder.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/json/encoder.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/json/scanner.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/json/tests/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/json/tests/test_check_circular.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/json/tests/test_decode.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/json/tests/test_default.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/json/tests/test_dump.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/json/tests/test_encode_basestring_ascii.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/json/tests/test_fail.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/json/tests/test_float.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/json/tests/test_indent.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/json/tests/test_pass1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/json/tests/test_pass2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/json/tests/test_pass3.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/json/tests/test_recursion.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/json/tests/test_scanstring.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/json/tests/test_separators.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/json/tests/test_speedups.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/json/tests/test_tool.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/json/tests/test_unicode.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/json/tool.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/logging/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/logging/config.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/logging/handlers.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/mutagen/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/mutagen/_compat.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/mutagen/_constants.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/mutagen/_file.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/mutagen/_senf/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/mutagen/_senf/_argv.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/mutagen/_senf/_compat.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/mutagen/_senf/_environ.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/mutagen/_senf/_fsnative.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/mutagen/_senf/_print.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/mutagen/_senf/_stdlib.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/mutagen/_senf/_temp.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/mutagen/_senf/_winansi.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/mutagen/_senf/_winapi.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/mutagen/_tags.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/mutagen/_tools/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/mutagen/_tools/_util.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/mutagen/_tools/mid3cp.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/mutagen/_tools/mid3iconv.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/mutagen/_tools/mid3v2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/mutagen/_tools/moggsplit.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/mutagen/_tools/mutagen_inspect.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/mutagen/_tools/mutagen_pony.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/mutagen/_util.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/mutagen/_vorbis.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/mutagen/aac.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/mutagen/aiff.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/mutagen/apev2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/mutagen/asf/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/mutagen/asf/_attrs.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/mutagen/asf/_objects.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/mutagen/asf/_util.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/mutagen/easyid3.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/mutagen/easymp4.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/mutagen/flac.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/mutagen/id3/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/mutagen/id3/_file.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/mutagen/id3/_frames.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/mutagen/id3/_id3v1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/mutagen/id3/_specs.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/mutagen/id3/_tags.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/mutagen/id3/_util.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/mutagen/m4a.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/mutagen/monkeysaudio.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/mutagen/mp3/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/mutagen/mp3/_util.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/mutagen/mp4/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/mutagen/mp4/_as_entry.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/mutagen/mp4/_atom.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/mutagen/mp4/_util.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/mutagen/musepack.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/mutagen/ogg.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/mutagen/oggflac.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/mutagen/oggopus.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/mutagen/oggspeex.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/mutagen/oggtheora.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/mutagen/oggvorbis.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/mutagen/optimfrog.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/mutagen/smf.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/mutagen/trueaudio.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/mutagen/wavpack.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/os.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/re.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/urllib2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/music_file_object.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/music_file_object.py" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/MusicPlayer$top_tool_frame.coverage" NAME="top_tool_frame Coverage Results" MODIFIED="1541207081117" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
+    <SUITE FILE_PATH="coverage/MusicPlayer$launcher.coverage" NAME="launcher Coverage Results" MODIFIED="1492065424816" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
+    <SUITE FILE_PATH="coverage/MusicPlayer$test.coverage" NAME="test Coverage Results" MODIFIED="1484128246786" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
+    <SUITE FILE_PATH="coverage/MusicPlayer$start.coverage" NAME="start Coverage Results" MODIFIED="1541394001346" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/MusicPlayer$Test.coverage" NAME="Test Coverage Results" MODIFIED="1483685695132" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/MusicPlayer$music_player_widget.coverage" NAME="music_player_widget Coverage Results" MODIFIED="1541176750643" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
+    <SUITE FILE_PATH="coverage/MusicPlayer$winwidget.coverage" NAME="winwidget Coverage Results" MODIFIED="1483688031587" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
+    <SUITE FILE_PATH="coverage/MusicPlayer$bottom_tool_frame.coverage" NAME="bottom_tool_frame Coverage Results" MODIFIED="1541172305467" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
+    <SUITE FILE_PATH="coverage/MusicPlayer$lrc_shower.coverage" NAME="lrc_shower Coverage Results" MODIFIED="1484290829804" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
+    <SUITE FILE_PATH="coverage/MusicPlayer$window.coverage" NAME="window Coverage Results" MODIFIED="1483687711653" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
+    <SUITE FILE_PATH="coverage/MusicPlayer$test_phonon.coverage" NAME="test_phonon Coverage Results" MODIFIED="1483689365488" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
+    <SUITE FILE_PATH="coverage/MusicPlayer$music_player_main_frame.coverage" NAME="music_player_main_frame Coverage Results" MODIFIED="1541172887486" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
+    <SUITE FILE_PATH="coverage/MusicPlayer$lrc_downloader.coverage" NAME="lrc_downloader Coverage Results" MODIFIED="1484290833841" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
+    <SUITE FILE_PATH="coverage/MusicPlayer$main.coverage" NAME="main Coverage Results" MODIFIED="1484191388781" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
+    <SUITE FILE_PATH="coverage/MusicPlayer$window__1_.coverage" NAME="window (1) Coverage Results" MODIFIED="1484102895586" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-1124759362">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="8" />
+          <entry key="project.open.time.1" value="2" />
+          <entry key="project.open.time.4" value="1" />
+          <entry key="project.open.time.5" value="5" />
+          <entry key="project.opened" value="8" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="ico" value="1" />
+          <entry key="ini" value="2" />
+          <entry key="png" value="8" />
+          <entry key="py" value="32" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="Image" value="9" />
+          <entry key="Ini" value="2" />
+          <entry key="Python" value="32" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="ini" value="14" />
+          <entry key="py" value="2018" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="Ini" value="14" />
+          <entry key="Python" value="2018" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/start.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="66">
+              <caret line="3" selection-start-line="3" selection-end-line="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/music_player_main_frame.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="110">
+              <caret line="5" column="8" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/music_player_widget.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="22">
+              <caret line="10" selection-start-line="10" selection-end-line="10" />
+              <folding>
+                <marker date="1541318024061" expanded="true" signature="6143:6149" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/music_info_frame.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="110">
+              <caret line="5" selection-start-line="5" selection-end-line="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/lrc_shower.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="66">
+              <caret line="3" selection-start-line="3" selection-end-line="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/music_file_object.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="88">
+              <caret line="4" column="5" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/lrc_downloader.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="88">
+              <caret line="4" column="11" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/top_tool_frame.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1606">
+              <caret line="75" column="43" selection-start-line="75" selection-start-column="43" selection-end-line="75" selection-end-column="43" />
+              <folding>
+                <element signature="e#26#51#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/music_tableview.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="704">
+              <caret line="33" column="13" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="13" />
+              <folding>
+                <element signature="e#26#51#0" expanded="true" />
+                <marker date="1541319252413" expanded="true" signature="4542:4548" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>updateTimeLabel</find>
+      <find>QtGu</find>
+      <find>_parent</find>
+      <find>WindowMinMaxButtonsHint</find>
+      <find>updateButtons</find>
+      <find>stop</find>
+      <find>openLRC</find>
+      <find>setGeometry</find>
+      <find>widt</find>
+      <find>loading</find>
+      <find>print</find>
+      <find>favAction</find>
+      <find>LRCDownloaderThread</find>
+      <find>LRCDownloader</find>
+      <find>MusicFile(</find>
+      <find>updateLRC</find>
+      <find>.state</find>
+      <find>open</find>
+      <find>openLrc</find>
+      <find>MusicFile</find>
+      <find>downloadLRCComplete</find>
+      <find>lrcPath</find>
+      <find>glo</find>
+      <find>播放</find>
+      <find>json_parser</find>
+      <find>titleLabel</find>
+      <find>Qstri</find>
+      <find>topto</find>
+      <find>import</find>
+      <find>playA</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>titelText</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Test.py" />
+        <option value="$PROJECT_DIR$/src/Test.py" />
+        <option value="$PROJECT_DIR$/src/1.py" />
+        <option value="$PROJECT_DIR$/src/winwidget.py" />
+        <option value="$PROJECT_DIR$/src/test_phonon.py" />
+        <option value="$PROJECT_DIR$/src/toptoolwidget.py" />
+        <option value="$PROJECT_DIR$/src/main.py" />
+        <option value="$PROJECT_DIR$/src/tableview.py" />
+        <option value="$PROJECT_DIR$/src/window.py" />
+        <option value="$PROJECT_DIR$/src/musiclist.py" />
+        <option value="$PROJECT_DIR$/src/mainwindow.py" />
+        <option value="$PROJECT_DIR$/src/player.py" />
+        <option value="$PROJECT_DIR$/src/main_window.py" />
+        <option value="$PROJECT_DIR$/src/bottom_widget.py" />
+        <option value="$PROJECT_DIR$/src/top_widget.py" />
+        <option value="$PROJECT_DIR$/src/test.py" />
+        <option value="$PROJECT_DIR$/src/lrc_parser.py" />
+        <option value="$PROJECT_DIR$/src/launcher.py" />
+        <option value="$PROJECT_DIR$/src/music_system_tray.py" />
+        <option value="$PROJECT_DIR$/src/json_parser.py" />
+        <option value="$PROJECT_DIR$/src/music_info_frame.py" />
+        <option value="$PROJECT_DIR$/src/lrc_shower.py" />
+        <option value="$PROJECT_DIR$/src/music_player_main.py" />
+        <option value="$PROJECT_DIR$/src/lrc_downloader.py" />
+        <option value="$PROJECT_DIR$/src/readme" />
+        <option value="$PROJECT_DIR$/src/setting.ini" />
+        <option value="$PROJECT_DIR$/src/bottom_tool_frame.py" />
+        <option value="$PROJECT_DIR$/start.py" />
+        <option value="$PROJECT_DIR$/setting.ini" />
+        <option value="$PROJECT_DIR$/src/music_player_main_frame.py" />
+        <option value="$PROJECT_DIR$/src/top_tool_frame.py" />
+        <option value="$PROJECT_DIR$/src/music_player_widget.py" />
+        <option value="$PROJECT_DIR$/src/music_tableview.py" />
+        <option value="$PROJECT_DIR$/src/music_file_object.py" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="57" />
+    <option name="y" value="23" />
+    <option name="width" value="1623" />
+    <option name="height" value="1027" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="Scope" currentSubView="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope" proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope">
+        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
+          <expand>
+            <path>
+              <item name="MusicPlayer" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="MusicPlayer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MusicPlayer" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="js.eslint.eslintPackage" value="" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="PyConsoleOptionsProvider">
+    <option name="myPythonConsoleState">
+      <console-settings module-name="MusicPlayer" is-module-sdk="true">
+        <option name="myUseModuleSdk" value="true" />
+        <option name="myModuleName" value="MusicPlayer" />
+      </console-settings>
+    </option>
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\GitHub\MusicPlayer-PyQT\MusicPlayer\res" />
+      <recent name="E:\PycharmProjects\MusicPlayer\src" />
+      <recent name="E:\PycharmProjects\MusicPlayer\res" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.start">
+    <configuration default="true" type="tests" factoryName="Attests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="MusicPlayer" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method />
+    </configuration>
+    <configuration name="bottom_tool_frame" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="MusicPlayer" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/bottom_tool_frame.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="music_player_main_frame" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="MusicPlayer" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/music_player_main_frame.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="music_player_widget" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="MusicPlayer" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/music_player_widget.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="start" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="MusicPlayer" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/start.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="top_tool_frame" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="MusicPlayer" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/top_tool_frame.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.start" />
+      <item itemvalue="Python.music_player_widget" />
+      <item itemvalue="Python.bottom_tool_frame" />
+      <item itemvalue="Python.music_player_main_frame" />
+      <item itemvalue="Python.top_tool_frame" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.start" />
+        <item itemvalue="Python.top_tool_frame" />
+        <item itemvalue="Python.music_player_widget" />
+        <item itemvalue="Python.music_player_main_frame" />
+        <item itemvalue="Python.bottom_tool_frame" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7b81a807-21ad-48ac-8dcf-9ec8061c92b9" name="Default" comment="" />
+      <created>1483617445627</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1483617445627</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="57" y="23" width="1623" height="1027" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Favorites" order="0" side_tool="true" />
+      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.18153068" />
+      <window_info id="Structure" order="2" weight="0.24984187" />
+      <window_info anchor="bottom" id="Event Log" order="0" sideWeight="0.53489584" side_tool="true" weight="0.14652406" />
+      <window_info anchor="bottom" id="Version Control" order="1" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Python Console" order="2" weight="0.32941177" />
+      <window_info anchor="bottom" id="Terminal" order="3" />
+      <window_info anchor="bottom" id="Message" order="4" />
+      <window_info anchor="bottom" id="Find" order="5" weight="0.3291536" />
+      <window_info anchor="bottom" id="Run" order="6" sideWeight="0.46510416" weight="0.16684492" />
+      <window_info anchor="bottom" id="Debug" order="7" sideWeight="0.49270833" weight="0.3989305" />
+      <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="10" />
+      <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
+      <window_info anchor="right" id="Database" order="0" />
+      <window_info anchor="right" id="Commander" order="1" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
+      <window_info anchor="right" x="108" y="133" width="1736" height="866" id="Documentation" order="4" type="FLOATING" />
+      <window_info anchor="right" id="SciView" order="5" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="Favorites" order="0" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.17963314" />
+      <window_info id="Structure" order="2" weight="0.24984187" />
+      <window_info anchor="bottom" id="Event Log" order="0" sideWeight="0.53489584" side_tool="true" weight="0.14652406" />
+      <window_info anchor="bottom" id="Version Control" order="1" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Python Console" order="2" weight="0.32941177" />
+      <window_info anchor="bottom" id="Terminal" order="3" />
+      <window_info anchor="bottom" id="Message" order="4" />
+      <window_info anchor="bottom" id="Find" order="5" weight="0.3291536" />
+      <window_info anchor="bottom" id="Run" order="6" sideWeight="0.46510416" weight="0.16684492" />
+      <window_info anchor="bottom" id="Debug" order="7" sideWeight="0.49270833" weight="0.3989305" />
+      <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="10" />
+      <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
+      <window_info anchor="right" id="Database" order="0" />
+      <window_info anchor="right" id="Commander" order="1" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
+      <window_info anchor="right" x="108" y="133" width="1736" height="866" id="Documentation" order="4" type="FLOATING" />
+      <window_info anchor="right" id="SciView" order="5" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/.." />
+    </ignored-roots>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <default-breakpoints>
+        <breakpoint type="python-exception">
+          <properties notifyOnTerminate="true" exception="BaseException">
+            <option name="notifyOnTerminate" value="true" />
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$USER_HOME$/.PyCharm2016.3/system/python_stubs/1494736245/PyQt4/QtGui/QStandardItem.py" />
+    <entry file="file://$USER_HOME$/.PyCharm2016.3/system/python_stubs/1494736245/PyQt4/QtGui/QFrame.py" />
+    <entry file="file://$USER_HOME$/.PyCharm2016.3/system/python_stubs/1494736245/PyQt4/QtGui/QWidget.py" />
+    <entry file="file://D:/Python27/Lib/urllib2.py" />
+    <entry file="file://$USER_HOME$/.PyCharm2016.3/system/python_stubs/1494736245/__builtin__.py" />
+    <entry file="file://$USER_HOME$/.PyCharm2016.3/system/python_stubs/1494736245/PyQt4/QtGui/QLabel.py" />
+    <entry file="file://$USER_HOME$/.PyCharm2016.3/system/python_stubs/1494736245/PyQt4/QtGui/QStandardItemModel.py" />
+    <entry file="file://$PROJECT_DIR$/src/setting.ini.bak" />
+    <entry file="file://D:/Python27/Lib/site-packages/enum.py" />
+    <entry file="file://D:/Python27/Lib/site-packages/qstring/__init__.py" />
+    <entry file="file://$PROJECT_DIR$/res/我真的受伤了_张学友.lrc" />
+    <entry file="file://$PROJECT_DIR$/res/心如刀割_张学友.lrc" />
+    <entry file="file://$USER_HOME$/.PyCharm2016.3/system/python_stubs/1494736245/PyQt4/QtCore/QObject.py" />
+    <entry file="file://$PROJECT_DIR$/src/music_system_tray.py" />
+    <entry file="file://$PROJECT_DIR$/src/music_player_main.py" />
+    <entry file="file://$PROJECT_DIR$/res/screenshot.png" />
+    <entry file="file://$PROJECT_DIR$/src/json_parser.py" />
+    <entry file="file://$PROJECT_DIR$/src/launcher.py" />
+    <entry file="file://$PROJECT_DIR$/src/readme" />
+    <entry file="file://$PROJECT_DIR$/lib/mutagen/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="22" column="12" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/setting.ini">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="1" column="47" selection-start-line="1" selection-start-column="47" selection-end-line="1" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Library/Caches/PyCharm2018.2/python_stubs/1190148319/PyQt4/QtGui/QAbstractItemView.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="233">
+          <caret line="464" column="8" selection-start-line="464" selection-start-column="8" selection-end-line="464" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/res/bgColor.png" />
+    <entry file="file://$USER_HOME$/Library/Caches/PyCharm2018.2/python_stubs/1190148319/PyQt4/QtGui/QIcon.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="292">
+          <caret line="99" column="8" selection-start-line="99" selection-start-column="8" selection-end-line="99" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/ConfigParser.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-11888" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/music_system_tray_icon.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-71">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/anaconda3/envs/pyqt/lib/python2.7/ConfigParser.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/mini.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/close.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$USER_HOME$/Library/Caches/PyCharm2018.2/python_stubs/1190148319/PyQt4/QtGui/QPushButton.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="534">
+          <caret line="90" column="8" selection-start-line="90" selection-start-column="8" selection-end-line="90" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/box.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/heart.ico">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/heart.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/icon.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$USER_HOME$/Library/Caches/PyCharm2018.2/python_stubs/1190148319/PyQt4/QtCore/QDir.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="303">
+          <caret line="109" column="8" selection-start-line="109" selection-start-column="8" selection-end-line="109" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/add.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$USER_HOME$/Library/Caches/PyCharm2018.2/python_stubs/1190148319/PyQt4/QtGui/QWidget.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="710">
+          <caret line="854" column="8" selection-start-line="854" selection-start-column="8" selection-end-line="854" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/setting.ini">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="8" selection-start-column="8" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/bottom_tool_frame.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="296">
+          <caret line="21" column="8" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Library/Caches/PyCharm2018.2/python_stubs/1190148319/PyQt4/QtGui/QTabWidget.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="448">
+          <caret line="240" column="8" selection-start-line="240" selection-start-column="8" selection-end-line="240" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Library/Caches/PyCharm2018.2/python_stubs/1190148319/PyQt4/QtCore/QObject.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="296">
+          <caret line="24" column="8" selection-start-line="24" selection-start-column="8" selection-end-line="24" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/music_player_main_frame.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" column="8" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/top_tool_frame.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1606">
+          <caret line="75" column="43" selection-start-line="75" selection-start-column="43" selection-end-line="75" selection-end-column="43" />
+          <folding>
+            <element signature="e#26#51#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/music_tableview.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="704">
+          <caret line="33" column="13" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="13" />
+          <folding>
+            <element signature="e#26#51#0" expanded="true" />
+            <marker date="1541319252413" expanded="true" signature="4542:4548" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lrc_downloader.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="11" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/music_player_widget.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+          <folding>
+            <marker date="1541318024061" expanded="true" signature="6143:6149" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/music_info_frame.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lrc_shower.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/start.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/music_file_object.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="5" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
