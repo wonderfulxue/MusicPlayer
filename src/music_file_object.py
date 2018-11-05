@@ -1,8 +1,8 @@
 # -*- encoding: UTF-8 -*-
 
 import enum, chardet
-from lib.mutagen.mp3 import MP3
-from lib.mutagen.asf import ASF
+from mutagen.mp3 import MP3
+from mutagen.asf import ASF
 from lrc_downloader import *
 from PyQt4.phonon import Phonon
 
