@@ -1,9 +1,8 @@
 # -*- encoding:utf-8 -*-
 from PyQt4 import QtGui
-
-from src import music_player_widget
-import music_system_tray_icon
 import sys, os
+from src import music_player_widget
+from src import music_system_tray_icon
 
 if __name__ == "__main__":
     app = QtGui.QApplication(sys.argv)
