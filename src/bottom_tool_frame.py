@@ -26,6 +26,7 @@ class BottomToolFrame(QFrame):
         self._audioOutput = main.audioOutput
         self._playingMusic = main.playingMusic
         self.playingOrder = 0
+        self.count = 0
 
         self.setStyleSheet(
         '''
@@ -83,6 +84,7 @@ class BottomToolFrame(QFrame):
 
         self.orderButton = QPushButton()
         self.orderButton.setText(u"顺序播放")
+        self.orderButton.clicked.connect(self.updateCount)
 
         self.seekSlider = Phonon.SeekSlider()
         self.seekSlider.setMediaObject(self._mediaObject)
@@ -131,9 +133,21 @@ class BottomToolFrame(QFrame):
     def stop(self):
         self.emit(SIGNAL("stop()"))
 
+    def updateCount(self):
+        self.count += 1
+
     def changeOrder(self):
-        self.playingOrder = 1 - self.playingOrder
-        self.orderButton.setText(u"顺序播放" if not self.playingOrder else u"随机播放")
+
+        if self.count % 3 == 0:
+            self.orderButton.setText(u'顺序播放')
+            self.playingOrder = 0
+        elif (self.count - 1) % 3 ==0:
+            self.orderButton.setText(u'随机播放')
+            self.playingOrder = 1
+        elif (self.count - 2) % 3 == 0:
+            self.orderButton.setText(u'单曲循环')
+            self.playingOrder = -1
+
         self.emit(SIGNAL("changeOrder(int)"), self.playingOrder)
 
     def updateTimeLabel(self, ms):

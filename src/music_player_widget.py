@@ -264,30 +264,60 @@ class MainWindow(QWidget):
             self.playingMusic = None
 
     def lastMusic(self):
-        if self.playingIndex - 1 >= 0:
+        if (self.playingIndex - 1 >= 0) and self.playingOrder == 0:
             self.playingIndex -= 1
             self.playingMusic = self.playingList[self.playingIndex]
+            self.playMusic(self.playingMusic)
+        elif (self.playingIndex == 0) and self.playingOrder == 0:
+            self.playingIndex = len(self.playingList - 1)
+            self.playingMusic = self.playingList[self.playingIndex]
+            self.playMusic(self.playingMusic)
+        elif self.playingOrder == 1:
+            self.randMusic()
+        elif self.playingOrder == -1:
             self.playMusic(self.playingMusic)
 
     def nextMusic(self):
         if not self.playingList or not len(self.playingList) or self.playingIndex == -1:
             return
-        if len(self.playingList) > self.playingIndex + 1:
+        if (len(self.playingList) > self.playingIndex + 1) and self.playingOrder == 0:
             self.playingIndex += 1
             self.playingMusic = self.playingList[self.playingIndex]
             self.playMusic(self.playingMusic)
+
+        elif (len(self.playingList) == self.playingIndex + 1) and self.playingOrder == 0:
+            self.playingIndex = 0
+            self.playingMusic = self.playingList[self.playingIndex]
+            self.playMusic(self.playingMusic)
+
+        elif self.playingOrder == 1:
+            self.randMusic()
+
+        elif self.playingOrder == -1:
+            self.playMusic(self.playingMusic)
+
         else:
             self.stop()
+
+    def randMusic(self):
+        self.playingIndex = int(random.randint(0, len(self.playingList) - 1))
+        self.playingMusic = self.playingList[self.playingIndex]
+        self.playMusic(self.playingMusic)
 
     def changeOrder(self, order):
         self.playingOrder = order
 
     def finished(self):
+        # if self.playingOrder = 0, 顺序播放
         if not self.playingOrder:
             self.nextMusic()
+
+        # 随机播放
+        elif self.playingOrder == 1:
+            self.randMusic()
+
+        # 单曲循环
         else:
-            self.playingIndex = int(random.randint(0, len(self.playingList) - 1))
-            self.playingMusic = self.playingList[self.playingIndex]
             self.playMusic(self.playingMusic)
 
     def tabChanged(self, i):
