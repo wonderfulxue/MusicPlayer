@@ -1,7 +1,9 @@
 # MusicPlayer
 
-### A simple music player implements with PyQt4.
+## A simple music player implements with PyQt4.
 ---
+## Notice: 华科电信学院1606班软件课设作业，节课前勿扰。 Author: 薛智钧
+--- 
 ## Features
 - [x] 基本播放功能: 播放▶️，暂停⏸，快进⏩，快退⏪，停止⏹
 - [x] 支持播放模式: 单曲播放；单曲循环；顺序播放；随机播放
