@@ -29,7 +29,7 @@ class LRCState(enum.Enum):
 class MusicFile(QObject):
     def __init__(self, filePath):
         QObject.__init__(self)
-        self.filePath = filePath  # QString
+        self.filePath = filePath  # QString,歌曲的路径
         self.file = QFileInfo(filePath)
         self.title = QString()
         self.artist = QString()
@@ -41,6 +41,7 @@ class MusicFile(QObject):
         self.lrcPath = QString()
         self.lrcState = LRCState.waitForLrc
         self.lrcDownloadThread = LRCDownloaderThread([self.title, self.artist])
+        #接受来自lrc_downloader的信号,然后调用downloadLRCComplete函数
         self.connect(self.lrcDownloadThread, SIGNAL('complete(bool)'), self.downloadLRCComplete)
 
     def downloadLRC(self):
@@ -55,7 +56,8 @@ class MusicFile(QObject):
             self.lrcDownloadThread.terminate()
 
     def downloadLRCComplete(self, suc):
-        self.lrcState = LRCState.lrcShowing if suc else LRCState.downloadFailed
+        self.lrcState = LRCState.lrcShowing if suc else LRCState.downloadFailed  #判断歌词是下载正确还是错误
+        #抛出信号,被lrc_show里面的函数接受并进行处理,self.filePath, self.lrcDownloadThread.lrcPath是需要的两个参数
         self.emit(SIGNAL('downloadLRCComplete(QString, QString)'), 
                     self.filePath, self.lrcDownloadThread.lrcPath)
 
