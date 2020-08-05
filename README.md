@@ -36,9 +36,9 @@
 
 ### GUI:
 
-<div align="center"><img src="./ScreenShots/GUI.png" style="zoom: 40%"></div>
+<div align="center"><img src="./screenShots/GUI.png" style="zoom: 40%"></div>
 
+<br>
 
-
-<div align="center"><img src="./ScreenShots/showcase.png" style="zoom: 80%"></div>
+<div align="center"><img src="./screenShots/showcase.png" style="zoom: 80%"></div>
 
